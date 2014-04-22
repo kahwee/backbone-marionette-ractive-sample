@@ -1,0 +1,26 @@
+{
+  "name": "backbone-marionette-ractive-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kahwee/backbone-marionette-ractive-sample",
+  "authors": [
+    "KahWee Teng <t@kw.sg>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ractive": "~0.4.0",
+    "marionette": "~1.8.2",
+    "bootstrap": "~3.1.1",
+    "lodash": "~2.4.1",
+    "ractive-backbone": "~0.1.0"
+  }
+}

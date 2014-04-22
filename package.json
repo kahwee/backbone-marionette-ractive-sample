@@ -1,0 +1,24 @@
+{
+	"name": "backbone-marionette-ractive-sample",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kahwee/backbone-marionette-ractive-sample.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kahwee/backbone-marionette-ractive-sample/issues"
+	},
+	"homepage": "https://github.com/kahwee/backbone-marionette-ractive-sample",
+	"dependencies": {
+		"express": "^4.0.0",
+		"jade": "*"
+	}
+}

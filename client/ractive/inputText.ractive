@@ -1,0 +1,4 @@
+re class='thumbnail'>
+  <img src='assets/thumbnails/{{id}}.jpg'>
+  <figcaption>{{description}}</figcaption>
+</figure>
