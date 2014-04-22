@@ -38,9 +38,9 @@ html
     script(src='bower_components/ractive-backbone/Ractive-Backbone.min.js')
     script(type='text/ractive', id='example-template')
       include ractive/example.ractive
-    script(src='js/index.js')
     script.
       var partials = {};
     each template in ractiveTemplates
       script.
         partials['#{template.name}'] = decodeURIComponent("#{template.contents}")
+    script(src='js/index.js')

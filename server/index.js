@@ -17,7 +17,7 @@ app.get('/', function(req, res) {
 			var contents = fs.readFileSync(filePath);
 			var name = path.basename(filePath, '.ractive');
 			cb(null, {
-				name: name,
+				name: name.substr(1),
 				contents: encodeURIComponent(contents.toString())
 			});
 		}, function(err, ractiveTemplates) {

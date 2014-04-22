@@ -1,5 +1,6 @@
 var ractive = new Ractive({
 	el: '#main',
+	partials: partials,
 	template: '#example-template',
 	data: {
 		selected: 'readme'

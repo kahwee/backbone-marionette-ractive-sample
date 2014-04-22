@@ -1,6 +1,7 @@
 Cool {{name}}!
 <ul class='thumbnails'>
-  {{#films}}
+  {{#films}}s
+    {{>inputText}}
     <li
       on-tap='select:{{this}}'
       class='thumbnail {{ this === selectedFilm || actor.highlighted || director.highlighted ? "highlighted" : "" }}'
