@@ -1,0 +1,14 @@
+Cool {{name}}!
+<ul class='thumbnails'>
+  {{#films}}
+    <li
+      on-tap='select:{{this}}'
+      class='thumbnail {{ this === selectedFilm || actor.highlighted || director.highlighted ? "highlighted" : "" }}'
+    >
+      {{name}}
+    </li>
+  {{/films}}
+  {{#fields}}
+    hello
+  {{/fields}}
+</ul>
