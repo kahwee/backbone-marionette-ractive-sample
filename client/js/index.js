@@ -33,6 +33,9 @@ var Field = Backbone.Model.extend({
 		context: 'state2',
 		type: 'inputText',
 		value: '300000',
+		label: {
+
+		},
 		displayName: 'Number',
 		name: 'ss',
 		errors: [
@@ -46,12 +49,28 @@ var Field = Backbone.Model.extend({
 var FieldCollection = Backbone.Collection.extend({
 	model: Field,
 })
+var fields = new FieldCollection([]);
+
+fields.add({
+	name: 'sd33',
+	displayName: 'Test',
+	type: 'inputText',
+	value: 'hey',
+});
+
+fields.add({
+	name: 'sd33',
+	displayName: 'Test',
+	type: 'select',
+});
+
 var filmCollection = new FilmCollection([]);
 filmCollection.add({
 	name: 'Hey',
 	year: 1984,
 });
 ractive.set({
+	fields: fields,
 	films: filmCollection,
 	selectedFilm: filmCollection.get('dr-no')
 });
