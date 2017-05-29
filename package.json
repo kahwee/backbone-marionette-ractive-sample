@@ -20,7 +20,7 @@
   "dependencies": {
     "express": "^4.0.0",
     "jade": "*",
-    "glob": "^3.2.9",
-    "async": "^0.7.0"
+    "glob": "^7.1.2",
+    "async": "^2.4.1"
   }
 }
